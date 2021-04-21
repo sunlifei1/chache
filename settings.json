@@ -1,0 +1,77 @@
+{
+    "files.autoSave": "off",
+    "less.compile": {
+        "out": "../css/"
+    },
+    "px2rem.rootFontSize": 50,
+    "cssrem.rootFontSize": 50,
+    "cssrem.autoRemovePrefixZero": false,
+    "extensions.autoUpdate": false,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "update.mode": "start",
+    "update.enableWindowsBackgroundUpdates": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "boundary",
+    "guides.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    // "[html]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "wxml": "html"
+    },
+    "explorer.confirmDelete": false,
+    "minapp-vscode.disableAutoConfig": true,
+    "minapp-vscode.prettier": {},
+    "sync.gist": "vscode-settings-sync",
+    "sync.autoUpload": true,
+    "prettier.tabWidth": 4,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "files.trimTrailingWhitespace": true,
+    // 在使用搜索功能时，将这些文件夹/文件排除在外
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/target": true,
+        "**/logs": true
+    },
+    // #让vue中的js按"prettier"格式进行格式化
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            // #vue组件中html代码格式化样式
+            // Wrap attributes to new lines [auto|force|force-aligned|force-expand-multiline] [auto]
+            "wrap_attributes": "auto", //也可以设置为“auto”，效果会不一样
+            "wrap_line_length": 200,
+            "end_with_newline": false,
+            "semi": false,
+            "singleQuote": true
+        },
+        "prettier": {
+            "semi": false,
+            "singleQuote": true
+        }
+    },
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "dorajs.host": "192.168.2.222",
+    "git.ignoreMissingGitWarning": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
